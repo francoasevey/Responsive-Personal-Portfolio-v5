@@ -218,7 +218,7 @@ main{
     background-color: var(--themeColor);
     border-radius: 3px;
 }
-#about .divider ∼ p{
+.sub-para{
     color: var(--textColor);
     font-size: 15px;
     letter-spacing: 0.4px;
@@ -313,5 +313,10 @@ main{
     #about .about-col .info-col .icon-list-col .icon-list ul li span{
         font-weight: 400;
         font-size: 13px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #about .about-col .img-col img{
+        width: 90%;
     }
 }
