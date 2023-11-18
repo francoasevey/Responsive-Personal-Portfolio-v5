@@ -586,7 +586,7 @@ main{
 }
 #portfolio .port-row .port-item:hover .port-info{
     transform: scale(1);
-    visibility: hidden;
+    visibility: visible;
 }
 #portfolio .port-row .port-item .port-info h4{
     color: var(--bgColor);
@@ -612,4 +612,19 @@ main{
 #portfolio .port-row .port-item .port-info a:hover{
     background-color: var(--sideBGColor);
     color: var(--bgColor);
+}
+@media only screen and (max-width: 650px){
+    #portfolio{
+        padding: 50px 10px;
+    }
+    #potfolio .port-row{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}
+@media only screen and (max-width: 350px){
+    #potfolio .port-row{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
 }
