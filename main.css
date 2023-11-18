@@ -559,7 +559,7 @@ main{
 #portfolio .port-row .port-item{
     position: relative;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden;   
 }
 #portfolio .port-row .port-item .port-img img{
     width: 100%;
