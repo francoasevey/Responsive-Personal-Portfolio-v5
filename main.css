@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 :root{
     --sideBGColor: #040b14;
@@ -765,4 +766,18 @@ main{
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+    #contact{
+        padding: 50px;
+    }   
+    #contact .contact-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #contact{
+        padding: 50px 10px;
+    }
 }
